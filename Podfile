@@ -1,3 +1,4 @@
+use_frameworks!
 target 'SecuritySpace' do
-  pod 'AFNetworking', '~> 3.0'
+  pod 'Alamofire', '~> 4.0'
 end

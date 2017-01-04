@@ -15,7 +15,7 @@
 		3EA38D401E1D47A000298963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EA38D3E1E1D47A000298963 /* LaunchScreen.storyboard */; };
 		3EA38D4B1E1D47A000298963 /* SecuritySpaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA38D4A1E1D47A000298963 /* SecuritySpaceTests.swift */; };
 		3EA38D561E1D47A000298963 /* SecuritySpaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA38D551E1D47A000298963 /* SecuritySpaceUITests.swift */; };
-		EABC60A7600E0D7C26A34989 /* libPods-SecuritySpace.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E40C5DB8DE972E9DD2EB59 /* libPods-SecuritySpace.a */; };
+		97A749EC06F082FEC4F073FB /* Pods_SecuritySpace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C696B9D81D6611EC637EB772 /* Pods_SecuritySpace.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 /* Begin PBXFileReference section */
 		007A072B1071E3E4E40BB03B /* Pods-SecuritySpace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecuritySpace.release.xcconfig"; path = "Pods/Target Support Files/Pods-SecuritySpace/Pods-SecuritySpace.release.xcconfig"; sourceTree = "<group>"; };
 		094AA531800162E61AC8519F /* Pods-SecuritySpace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecuritySpace.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SecuritySpace/Pods-SecuritySpace.debug.xcconfig"; sourceTree = "<group>"; };
-		33E40C5DB8DE972E9DD2EB59 /* libPods-SecuritySpace.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SecuritySpace.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA38D301E1D47A000298963 /* SecuritySpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecuritySpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA38D331E1D47A000298963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EA38D351E1D47A000298963 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		3EA38D511E1D47A000298963 /* SecuritySpaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecuritySpaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA38D551E1D47A000298963 /* SecuritySpaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecuritySpaceUITests.swift; sourceTree = "<group>"; };
 		3EA38D571E1D47A000298963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C696B9D81D6611EC637EB772 /* Pods_SecuritySpace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecuritySpace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EABC60A7600E0D7C26A34989 /* libPods-SecuritySpace.a in Frameworks */,
+				97A749EC06F082FEC4F073FB /* Pods_SecuritySpace.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +147,7 @@
 		C49052630FFA304AFA6E39AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				33E40C5DB8DE972E9DD2EB59 /* libPods-SecuritySpace.a */,
+				C696B9D81D6611EC637EB772 /* Pods_SecuritySpace.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
